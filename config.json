@@ -1,0 +1,19 @@
+
+
+{
+    "title" : "测试标题",
+    "icon" : "./resource/icon.gif",
+    "angular-service-handler" : "$scope,$http,$cookies",
+    "angular-service-loader" : "ngCookies",
+    "rel_css" : [
+        "link(rel=\"stylesheet\" type=\"text/css\" href=\"./rel/bootstrap/css/bootstrap.min.css\")"
+    ],
+    "rel_js"  : [
+        "script(src=\"./rel/jquery.min.js\")",
+        "script(src=\"./rel/angular.min.js\")",
+        "script(src=\"./rel/angular-cookies.min.js\")",
+        "script(src=\"./rel/bootstrap/js/bootstrap.min.js\")"
+    ],
+    "port" : 80,
+    "public" : {}
+}

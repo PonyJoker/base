@@ -1,0 +1,20 @@
+
+html
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" type="text/css" href="./rel/bootstrap/css/bootstrap.min.css")
+        link(rel="stylesheet" type="text/css" href="style.css")
+        link(rel="shortcut icon" href="./resource/icon.gif")
+        title 测试标题
+        
+    body.container(ng-app="app" ng-controller="myCtrl")
+
+        include ./app/001.nav/app.jade
+        include ./app/002.header/app.jade
+        include ./app/003.footer/app.jade    
+    script(src="./rel/jquery.min.js")
+    script(src="./rel/angular.min.js")
+    script(src="./rel/angular-cookies.min.js")
+    script(src="./rel/bootstrap/js/bootstrap.min.js")
+    script(src="./user.js")
